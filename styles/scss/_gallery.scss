@@ -1,0 +1,29 @@
+
+.gallery {
+
+      padding-top: 50px;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+
+      img{
+            margin: 10px;
+            display: inline-block;
+            width: 340px;
+            height: 200px;
+            transition: 0.3s;
+            cursor: pointer;
+            // filter: grayscale(100%);
+
+            &:hover{
+                  transform: scale(1.1);
+                  
+            }
+      }
+
+      .cpu-img{
+            width: 220px;
+      }
+}
+
+

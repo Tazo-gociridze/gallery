@@ -1,0 +1,55 @@
+
+@import './scss/navbar';
+@import './scss/gallery';
+@import './scss/popup';
+
+html, body{
+    height: 100%;
+}
+
+body{
+        background-image: url(../imgs/background/01.jpg);
+        background-size: 4px 4px;
+}
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.container{
+      position: relative;
+      width: 100%;
+      height: 100%;
+}
+
+.dnone{
+      display: none;
+}
+
+.d-inline-block{
+      display: inline-block;
+}
+
+.scroll-hidden{
+      overflow: hidden;
+}
+
+.scroll-visible{
+      overflow: visible;
+}
+
+.hide-box{
+      width: 0%;
+      height: 0%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10000;
+}
+
+.max-width{
+      width: 100%;
+      height: 100%;
+}
